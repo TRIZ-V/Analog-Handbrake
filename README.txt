@@ -1,5 +1,6 @@
 # Analog-Handbrake
-#### Version 1.0
+#### Version 1.1
+2017-08-14
 
 레이싱 게임용 아날로그 핸드브레이크
 
