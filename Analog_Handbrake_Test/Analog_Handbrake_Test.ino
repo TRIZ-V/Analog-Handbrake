@@ -16,6 +16,8 @@ static int potValueMax = 1023;
 void setup()
 {
   Joystick.begin();
+  
+  Serial.begin(9600);
 }
 
 void loop()
@@ -37,4 +39,6 @@ void loop()
   else {
   Joystick.setThrottle(ThrottleValue);
   }
+
+  Serial.println(potValue);
 }
